@@ -3,8 +3,8 @@
   "version": "0.1.2",
   "description": "Yeoman generator",
   "license": "MIT",
-  "main": "generators/app/index.js",
-  "repository": "platdeisgn/generator-pd-ng",
+  "main": "app/index.js",
+  "repository": "platdesign/generator-pd-ng",
   "author": {
     "name": "",
     "email": "",
