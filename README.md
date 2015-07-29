@@ -1,47 +1,50 @@
-# generator-pd-ng [![Build Status](https://secure.travis-ci.org/platdeisgn/generator-pd-ng.png?branch=master)](https://travis-ci.org/platdeisgn/generator-pd-ng)
+# generator pd-ng
 
-> [Yeoman](http://yeoman.io) generator
+## Install
 
+	npm install -g generator-pd-ng
+	
 
-## Getting Started
+## Usage
 
-### What is Yeoman?
+**Create an app**
 
-Trick question. It's not a thing. It's this guy:
+	yo pd-ng [appname]
+	
+Creates a new app directory named with dasherized given `appname`.
 
-![](http://i.imgur.com/JHaAlBJ.png)
+----------
 
-Basically, he wears a top hat, lives in your computer, and waits for you to tell him what kind of application you wish to create.
+**!!! FROM NOW ON YOU NEED TO BE IN AN APP DIRECTORY !!!**
 
-Not every new computer comes with a Yeoman pre-installed. He lives in the [npm](https://npmjs.org) package repository. You only have to ask for him once, then he packs up and moves into your hard drive. *Make sure you clean up, he likes new and shiny things.*
+---------------
 
-```bash
-npm install -g yo
-```
+**Create a directive**
 
-### Yeoman Generators
+	yo pd-ng:directive [directiveName]
+	
+Creates a directive in `./directives/[directiveName]` with dasherized `directiveName`.
 
-Yeoman travels light. He didn't pack any generators when he moved in. You can think of a generator like a plug-in. You get to choose what type of application you wish to create, such as a Backbone application or even a Chrome extension.
+**Create a service**
 
-To install generator-pd-ng from npm, run:
+	yo pd-ng:service [serviceName]
+	
+Creates a service in `./services/[serviceName]` with dasherized `serviceName`.
 
-```bash
-npm install -g generator-pd-ng
-```
+**Create a factory**
 
-Finally, initiate the generator:
+	yo pd-ng:factory [factoryName]
+	
+Creates a factory in `./factories/[factoryName]` with dasherized `factoryName `.
 
-```bash
-yo pd-ng
-```
+**Create a provider**
 
-### Getting To Know Yeoman
+	yo pd-ng:provider [providerName]
+	
+Creates a provider in `./providers/[providerName]` with dasherized `providerName `.
 
-Yeoman has a heart of gold. He's a person with feelings and opinions, but he's very easy to work with. If you think he's too opinionated, he can be easily convinced.
+**Create a state**
 
-If you'd like to get to know Yeoman better and meet some of his friends, [Grunt](http://gruntjs.com) and [Bower](http://bower.io), check out the complete [Getting Started Guide](https://github.com/yeoman/yeoman/wiki/Getting-Started).
-
-
-## License
-
-MIT
+	yo pd-ng:state [stateName]
+	
+Creates a state in `./states/[stateName]`.
