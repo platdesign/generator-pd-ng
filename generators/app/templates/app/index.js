@@ -5,7 +5,7 @@
  * Angular-Module: <%= appName %>
  * [Description]
  */
-var mod = module.exports = angular.module('[Name]', []);
+var mod = module.exports = angular.module('<%= appName %>', []);
 
 // Configs
 

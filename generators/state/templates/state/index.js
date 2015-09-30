@@ -10,7 +10,7 @@ module.exports = {
 	url: '/',
 	template: require('./template.jade'),
 	resolve: {},
-	controller: ['', function() {
+	controller: ['$scope', function($scope) {
 
 	}]
 };

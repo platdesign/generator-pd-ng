@@ -36,8 +36,8 @@ module.exports = yeoman.generators.Base.extend({
 		instructions: function() {
 			console.log(chalk.gray('State'), this.name, chalk.gray('successfully created.'), chalk.green('✔'), '\n');
 
-			console.log(chalk.gray('index.js'));
-			console.log('   ', 'mod.state(\''+this.name+'\', require(\'./states/'+this.name+'\'));');
+			console.log(chalk.gray('configs/states/config.js'));
+			console.log('   ', '$stateProvider.state(\''+this.name+'\', require(\'./states/'+this.name+'\'));');
 
 			console.log(chalk.gray('main.scss'));
 			console.log('   ', '@import \'states/'+this.name+'/styles\';');
